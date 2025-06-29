@@ -1,0 +1,51 @@
+*{
+    margin:20px;
+    padding:0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+ h1{
+   
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace; font-size: 2.0rem;
+    border-radius: 10px;
+    border: 0.5px solid black;
+
+ }
+
+/* mainContainer*/ 
+#main
+    {
+       
+        font-family: 'Courier New', Courier, monospace; font-size: 2.0rem;
+         color: brown;
+        display: grid;
+        place-items: center; 
+        height: 70vh;        
+  
+        
+    }
+    #para{
+         background-color: rgb(180, 240, 28);
+         border-radius: 5px;
+            border: 0.5px solid black;
+            font-size: 1.5rem;
+            width: 330px;
+            
+    }
+    #movingBox
+    {
+        width:250px;
+        height: 250px;
+        background-color: lightcoral;
+        border: 0.5px solid black;
+    }
+    #timeDetails
+    {
+        font-size: 30px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: yellow;
+    }
+    
+
